@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome');
+Route::view('/', 'test-upload')->name('home');
 
 Route::view('/test', 'livewire.test-upload');
 
